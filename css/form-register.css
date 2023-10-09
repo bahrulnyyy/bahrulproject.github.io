@@ -1,0 +1,96 @@
+*  {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("../imgg/bg1.jpg");
+    background-size: cover;
+}
+.form {
+    width: 370px;
+    height: 525px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgb(206, 202,202);
+    margin-left: 500px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+
+h2 {
+    text-align: center;
+    width: 230px;
+    height: 35px;
+    margin-left: 67px;
+    border-radius: 10px;
+    padding-top: 5px;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.jk {
+    font-size: 20px;
+    margin-left: 67px;
+    font-family: 'Times New Roman';
+    margin-top: 15px;
+    font-weight: 100;
+    position: relative;
+    background: transparent;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid orange;
+    color: rgb(7, 58, 0);
+    letter-spacing: 1px;
+    outline: none;
+}
+
+
+::placeholder {
+    color: black;
+}
+
+.txt {
+    margin-top: -15px;
+    margin-left: 67px;
+    font-size: 20px;
+    color: black;
+}
+
+.form .jnk {
+    margin-left: 120px;
+    font-size: 20px;
+    color: black;
+}
+
+
+button {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 67px;
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    background: purple;
+    color: white;
+    transition: 0.5s ease;
+    border: none;
+}
+
+button:hover {
+    background: blue;
+    text-decoration: underline;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+}
+
+
